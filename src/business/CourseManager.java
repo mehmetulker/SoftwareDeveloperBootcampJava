@@ -26,7 +26,7 @@ public class CourseManager {
 			}else{
 				
 				courseDao.add(education);
-				System.out.println();
+				
 				System.out.println(education);
 				
 				for (LoggerDao loggerDao : loggers) {
